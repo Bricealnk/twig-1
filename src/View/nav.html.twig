@@ -3,13 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}{{ parent() }} - Accueil{% endblock %}</title>
+    <title>{% block title %}{{ parent() }} - Navbar{% endblock %}</title>
     <link rel="icon" href="/assets/images/favicon.png">
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 
 <body>
-    <h1>Hello {{ name }} ! ça va?</h1>
-    <a href="products.php">Produits</a>
+    <nav>
+    <ul>
+        <li>Accueil</li>
+        <li>Musique</li>
+        <li>Contact</li>
+    </ul>
+</nav>
 </body>
-</html>
